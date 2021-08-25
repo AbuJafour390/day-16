@@ -1,0 +1,188 @@
+/* deafault-css---- */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* headre-section----- */
+.header-section{
+    background: #101446;
+}
+.header-logo{}
+.header-logo a{
+    line-height: 77px;
+}
+.header-logo a img{
+    width: 85px;
+}
+   
+.header-menu ul li a {
+    display: inline-block;
+    color: #fff;
+     padding: 19px 20px;
+     line-height: 36px;
+     position: relative;
+}
+.header-menu ul li a::before{
+    content: "";
+    position: absolute;
+    bottom: 17px;
+    left: 11px;
+    background-color: red;
+    width: 0;
+    height: 3px;
+    transition: .5s;
+
+}
+.header-menu ul li a:hover::before{
+    width: 79%;
+}
+
+
+.header-menu ul{
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: inline-block;
+    color: #fff;
+}
+
+/* banner-section------ */
+.banner-section{
+    background: url(./image/intro-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    padding: 240px;
+    background-attachment: fixed;
+}
+.bannner-content{
+    color: #fff;
+}
+.bannner-content h2{
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.bannner-content p{
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.bannner-content button{
+    margin-top: 60px;
+    padding: 12px 22px;
+}
+.bannner-content button:hover{
+    background-color: #fff;
+    border: 1px solid #0d6efd;
+    color: #0d6efd;
+    box-shadow: 0 0 10px #fff;
+}
+
+/* team-section---- */
+.team-section{
+    background-color: #bac1f3;
+}
+.team-section h2{
+    padding: 65px 0 25px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.team-content h4{
+    margin-top: 7px;
+}
+
+.team-content button{
+    background-color: #337ab7;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 18px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 60px;
+    transition: .5s;
+}
+
+.team-content button:hover{
+    letter-spacing: 3px;
+    background-color: #0d6efd;
+    color: #fff;
+
+}
+
+
+/* about-section------- */
+
+.about-section{
+    background-color:#c2d4ea ;
+    padding-bottom: 50px;
+}
+.main-head{ 
+    padding: 80px 0 30px;
+    font-size: 40px;
+    
+}
+
+.a-text{
+    font-size: 17px;
+    line-height: 28px;
+}
+
+
+.a-under-text{
+    margin-top: 25px;
+}
+
+
+/* contact section----- */
+
+.contact-section{
+    background-color: #fff4f4;
+    padding: 45px 0;
+}
+
+.c-head{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.contact-form h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-form button{
+    margin-top: 15px;
+}
+
+/* footer----- */
+
+.footer{
+    background-color:#0062d3 ;
+}
+
+.footer-text{
+    color: #fff;
+    padding: 25px 0;
+}
+.footer-text h4{
+    font-size: 22px;
+}
